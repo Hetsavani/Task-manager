@@ -1,0 +1,86 @@
+mycontainer{
+    width: 100%;
+    text-align: center;
+}
+.myForm {
+    margin-top: 20px;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.mybtn {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    color: black;
+    display: inline-block;
+    animation: id_myForm 2s;
+}
+
+.mybtn:hover {
+    letter-spacing: 3px;
+    /* background-color: hsl(261deg 80% 48%); */
+    background-color: blue;
+    color: hsl(0, 0%, 100%);
+    /* box-shadow: rgb(93 24 220) 0px 7px 29px 0px; */
+    box-shadow:  blue 0px 7px 29px 0px;
+}
+
+.mybtn:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+#txt1 {
+    margin-bottom: 20px;
+    transition: 1s;
+    display: inline-block;
+    animation: id_myForm 2s;
+}
+
+#txt1:hover {
+    transform: scale(1.05);
+}
+
+#txt2 {
+    margin-bottom: 20px;
+    transition: 1s;
+    display: inline-block;
+    animation: id_myForm 2s;
+}
+
+#txt2:hover {
+    transform: scale(1.05);
+}
+
+#txt3 {
+    margin-bottom: 20px;
+    transition: 1s;
+    display: inline-block;
+    animation: id_myForm 2s;
+}
+
+#txt3:hover {
+    transform: scale(1.05);
+}
+
+@keyframes id_myForm {
+    from{
+        margin-top: 200px;
+    }to{
+        margin-top: 0px;
+    }
+}

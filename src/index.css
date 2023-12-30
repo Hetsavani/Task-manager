@@ -1,0 +1,20 @@
+.Header-1 {
+    height: 20vh;
+    background-color: rgb(32, 32, 56);
+    color: white;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    animation: identifier_header 1s;
+  }
+  
+  @keyframes identifier_header {
+    from {
+      margin-top: -200px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }
