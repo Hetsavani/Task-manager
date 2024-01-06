@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function List() {
   const [works, setWorks] = useState([]);
-  const apiUrl = "http://localhost:3000";
+  const apiUrl = "https://task-manager-backend-m1i4.onrender.com";
   const nav = useNavigate();
   useEffect(() => {
     fetch(apiUrl)
