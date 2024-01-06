@@ -7,7 +7,7 @@ function Edit() {
   const nav = useNavigate();
   const params = useParams();
   // console.log(params.id)
-  const apiUrl = "https://task-manager-backend-m1i4.onrender.com"+params.id;
+  const apiUrl = "https://task-manager-backend-m1i4.onrender.com/"+params.id;
   useEffect(() => {
     fetch(apiUrl)
       .then((res) => {
